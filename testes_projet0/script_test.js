@@ -1,3 +1,14 @@
+// const paragrafos = document.querySelectorAll('p');
+// paragrafos.forEach( item => console.log(item.innerText) );
+
+// const imagens = document.querySelectorAll('img');
+// imagens.forEach(function(item, index, arrey){
+//     console.log(item);
+//     console.log(index);
+//     console.log(arrey);
+//     console.log('\n\n');
+// });
+
 const menu = document.querySelectorAll('.menu a');
 menu.forEach( item => item.classList.add('ativo') );
 
